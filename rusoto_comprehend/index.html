@@ -1,0 +1,828 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `rusoto_comprehend` crate."><meta name="keywords" content="rust, rustlang, rust-lang, rusoto_comprehend"><title>rusoto_comprehend - Rust</title><link rel="stylesheet" type="text/css" href="../normalize.css"><link rel="stylesheet" type="text/css" href="../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../dark.css"><link rel="stylesheet" type="text/css" href="../light.css" id="themeStyle"><script src="../storage.js"></script></head><body class="rustdoc mod"><!--[if lte IE 8]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="sidebar"><div class="sidebar-menu">&#9776;</div><a href='../rusoto_comprehend/index.html'><img src='https://raw.githubusercontent.com/rusoto/rusoto/master/assets/logo-square.png' alt='logo' width='100'></a><p class='location'>Crate rusoto_comprehend</p><div class="sidebar-elems"><div class="block items"><ul><li><a href="#structs">Structs</a></li><li><a href="#enums">Enums</a></li><li><a href="#traits">Traits</a></li></ul></div><p class='location'></p><script>window.sidebarCurrent = {name: 'rusoto_comprehend', ty: 'mod', relpath: '../'};</script></div></nav><div class="theme-picker"><button id="theme-picker" aria-label="Pick another theme!"><img src="../brush.svg" width="18" alt="Pick another theme!"></button><div id="theme-choices"></div></div><script src="../theme.js"></script><nav class="sub"><form class="search-form js-only"><div class="search-container"><input class="search-input" name="search" autocomplete="off" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><a id="settings-menu" href="../settings.html"><img src="../wheel.svg" width="18" alt="Change settings"></a></div></form></nav><section id="main" class="content"><h1 class='fqn'><span class='in-band'>Crate <a class="mod" href=''>rusoto_comprehend</a></span><span class='out-of-band'><span id='render-detail'><a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class='inner'>&#x2212;</span>]</a></span><a class='srclink' href='../src/rusoto_comprehend/lib.rs.html#14-30' title='goto source code'>[src]</a></span></h1><div class='docblock'><p>Amazon Comprehend is an AWS service for gaining insight into the content of documents. Use these actions to determine the topics contained in your documents, the topics they discuss, the predominant sentiment expressed in them, the predominant language used, and more.</p>
+<p>If you're using the service, you're probably looking for <a href="struct.ComprehendClient.html">ComprehendClient</a> and <a href="trait.Comprehend.html">Comprehend</a>.</p>
+</div><h2 id='structs' class='section-header'><a href="#structs">Structs</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectDominantLanguageItemResult.html"
+                                  title='struct rusoto_comprehend::BatchDetectDominantLanguageItemResult'>BatchDetectDominantLanguageItemResult</a></td>
+                           <td class='docblock-short'>
+                                <p>The result of calling the operation. The operation returns one object for each document that is successfully processed by the operation.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectDominantLanguageRequest.html"
+                                  title='struct rusoto_comprehend::BatchDetectDominantLanguageRequest'>BatchDetectDominantLanguageRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectDominantLanguageResponse.html"
+                                  title='struct rusoto_comprehend::BatchDetectDominantLanguageResponse'>BatchDetectDominantLanguageResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectEntitiesItemResult.html"
+                                  title='struct rusoto_comprehend::BatchDetectEntitiesItemResult'>BatchDetectEntitiesItemResult</a></td>
+                           <td class='docblock-short'>
+                                <p>The result of calling the operation. The operation returns one object for each document that is successfully processed by the operation.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectEntitiesRequest.html"
+                                  title='struct rusoto_comprehend::BatchDetectEntitiesRequest'>BatchDetectEntitiesRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectEntitiesResponse.html"
+                                  title='struct rusoto_comprehend::BatchDetectEntitiesResponse'>BatchDetectEntitiesResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectKeyPhrasesItemResult.html"
+                                  title='struct rusoto_comprehend::BatchDetectKeyPhrasesItemResult'>BatchDetectKeyPhrasesItemResult</a></td>
+                           <td class='docblock-short'>
+                                <p>The result of calling the operation. The operation returns one object for each document that is successfully processed by the operation.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectKeyPhrasesRequest.html"
+                                  title='struct rusoto_comprehend::BatchDetectKeyPhrasesRequest'>BatchDetectKeyPhrasesRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectKeyPhrasesResponse.html"
+                                  title='struct rusoto_comprehend::BatchDetectKeyPhrasesResponse'>BatchDetectKeyPhrasesResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectSentimentItemResult.html"
+                                  title='struct rusoto_comprehend::BatchDetectSentimentItemResult'>BatchDetectSentimentItemResult</a></td>
+                           <td class='docblock-short'>
+                                <p>The result of calling the operation. The operation returns one object for each document that is successfully processed by the operation.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectSentimentRequest.html"
+                                  title='struct rusoto_comprehend::BatchDetectSentimentRequest'>BatchDetectSentimentRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectSentimentResponse.html"
+                                  title='struct rusoto_comprehend::BatchDetectSentimentResponse'>BatchDetectSentimentResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectSyntaxItemResult.html"
+                                  title='struct rusoto_comprehend::BatchDetectSyntaxItemResult'>BatchDetectSyntaxItemResult</a></td>
+                           <td class='docblock-short'>
+                                <p>The result of calling the operation. The operation returns one object that is successfully processed by the operation.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectSyntaxRequest.html"
+                                  title='struct rusoto_comprehend::BatchDetectSyntaxRequest'>BatchDetectSyntaxRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchDetectSyntaxResponse.html"
+                                  title='struct rusoto_comprehend::BatchDetectSyntaxResponse'>BatchDetectSyntaxResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BatchItemError.html"
+                                  title='struct rusoto_comprehend::BatchItemError'>BatchItemError</a></td>
+                           <td class='docblock-short'>
+                                <p>Describes an error that occurred while processing a document in a batch. The operation returns on <code>BatchItemError</code> object for each document that contained an error.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ComprehendClient.html"
+                                  title='struct rusoto_comprehend::ComprehendClient'>ComprehendClient</a></td>
+                           <td class='docblock-short'>
+                                <p>A client for the Amazon Comprehend API.</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeDominantLanguageDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::DescribeDominantLanguageDetectionJobRequest'>DescribeDominantLanguageDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeDominantLanguageDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::DescribeDominantLanguageDetectionJobResponse'>DescribeDominantLanguageDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeEntitiesDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::DescribeEntitiesDetectionJobRequest'>DescribeEntitiesDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeEntitiesDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::DescribeEntitiesDetectionJobResponse'>DescribeEntitiesDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeKeyPhrasesDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::DescribeKeyPhrasesDetectionJobRequest'>DescribeKeyPhrasesDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeKeyPhrasesDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::DescribeKeyPhrasesDetectionJobResponse'>DescribeKeyPhrasesDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeSentimentDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::DescribeSentimentDetectionJobRequest'>DescribeSentimentDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeSentimentDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::DescribeSentimentDetectionJobResponse'>DescribeSentimentDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeTopicsDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::DescribeTopicsDetectionJobRequest'>DescribeTopicsDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeTopicsDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::DescribeTopicsDetectionJobResponse'>DescribeTopicsDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DetectDominantLanguageRequest.html"
+                                  title='struct rusoto_comprehend::DetectDominantLanguageRequest'>DetectDominantLanguageRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DetectDominantLanguageResponse.html"
+                                  title='struct rusoto_comprehend::DetectDominantLanguageResponse'>DetectDominantLanguageResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DetectEntitiesRequest.html"
+                                  title='struct rusoto_comprehend::DetectEntitiesRequest'>DetectEntitiesRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DetectEntitiesResponse.html"
+                                  title='struct rusoto_comprehend::DetectEntitiesResponse'>DetectEntitiesResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DetectKeyPhrasesRequest.html"
+                                  title='struct rusoto_comprehend::DetectKeyPhrasesRequest'>DetectKeyPhrasesRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DetectKeyPhrasesResponse.html"
+                                  title='struct rusoto_comprehend::DetectKeyPhrasesResponse'>DetectKeyPhrasesResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DetectSentimentRequest.html"
+                                  title='struct rusoto_comprehend::DetectSentimentRequest'>DetectSentimentRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DetectSentimentResponse.html"
+                                  title='struct rusoto_comprehend::DetectSentimentResponse'>DetectSentimentResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DetectSyntaxRequest.html"
+                                  title='struct rusoto_comprehend::DetectSyntaxRequest'>DetectSyntaxRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DetectSyntaxResponse.html"
+                                  title='struct rusoto_comprehend::DetectSyntaxResponse'>DetectSyntaxResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DominantLanguage.html"
+                                  title='struct rusoto_comprehend::DominantLanguage'>DominantLanguage</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns the code for the dominant language in the input text and the level of confidence that Amazon Comprehend has in the accuracy of the detection.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DominantLanguageDetectionJobFilter.html"
+                                  title='struct rusoto_comprehend::DominantLanguageDetectionJobFilter'>DominantLanguageDetectionJobFilter</a></td>
+                           <td class='docblock-short'>
+                                <p>Provides information for filtering a list of dominant language detection jobs. For more information, see the operation.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DominantLanguageDetectionJobProperties.html"
+                                  title='struct rusoto_comprehend::DominantLanguageDetectionJobProperties'>DominantLanguageDetectionJobProperties</a></td>
+                           <td class='docblock-short'>
+                                <p>Provides information about a dominant language detection job.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.EntitiesDetectionJobFilter.html"
+                                  title='struct rusoto_comprehend::EntitiesDetectionJobFilter'>EntitiesDetectionJobFilter</a></td>
+                           <td class='docblock-short'>
+                                <p>Provides information for filtering a list of dominant language detection jobs. For more information, see the operation.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.EntitiesDetectionJobProperties.html"
+                                  title='struct rusoto_comprehend::EntitiesDetectionJobProperties'>EntitiesDetectionJobProperties</a></td>
+                           <td class='docblock-short'>
+                                <p>Provides information about an entities detection job.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.Entity.html"
+                                  title='struct rusoto_comprehend::Entity'>Entity</a></td>
+                           <td class='docblock-short'>
+                                <p>Provides information about an entity. </p> <p> </p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.InputDataConfig.html"
+                                  title='struct rusoto_comprehend::InputDataConfig'>InputDataConfig</a></td>
+                           <td class='docblock-short'>
+                                <p>The input properties for a topic detection job.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.KeyPhrase.html"
+                                  title='struct rusoto_comprehend::KeyPhrase'>KeyPhrase</a></td>
+                           <td class='docblock-short'>
+                                <p>Describes a key noun phrase.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.KeyPhrasesDetectionJobFilter.html"
+                                  title='struct rusoto_comprehend::KeyPhrasesDetectionJobFilter'>KeyPhrasesDetectionJobFilter</a></td>
+                           <td class='docblock-short'>
+                                <p>Provides information for filtering a list of dominant language detection jobs. For more information, see the operation.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.KeyPhrasesDetectionJobProperties.html"
+                                  title='struct rusoto_comprehend::KeyPhrasesDetectionJobProperties'>KeyPhrasesDetectionJobProperties</a></td>
+                           <td class='docblock-short'>
+                                <p>Provides information about a key phrases detection job.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListDominantLanguageDetectionJobsRequest.html"
+                                  title='struct rusoto_comprehend::ListDominantLanguageDetectionJobsRequest'>ListDominantLanguageDetectionJobsRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListDominantLanguageDetectionJobsResponse.html"
+                                  title='struct rusoto_comprehend::ListDominantLanguageDetectionJobsResponse'>ListDominantLanguageDetectionJobsResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListEntitiesDetectionJobsRequest.html"
+                                  title='struct rusoto_comprehend::ListEntitiesDetectionJobsRequest'>ListEntitiesDetectionJobsRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListEntitiesDetectionJobsResponse.html"
+                                  title='struct rusoto_comprehend::ListEntitiesDetectionJobsResponse'>ListEntitiesDetectionJobsResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListKeyPhrasesDetectionJobsRequest.html"
+                                  title='struct rusoto_comprehend::ListKeyPhrasesDetectionJobsRequest'>ListKeyPhrasesDetectionJobsRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListKeyPhrasesDetectionJobsResponse.html"
+                                  title='struct rusoto_comprehend::ListKeyPhrasesDetectionJobsResponse'>ListKeyPhrasesDetectionJobsResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListSentimentDetectionJobsRequest.html"
+                                  title='struct rusoto_comprehend::ListSentimentDetectionJobsRequest'>ListSentimentDetectionJobsRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListSentimentDetectionJobsResponse.html"
+                                  title='struct rusoto_comprehend::ListSentimentDetectionJobsResponse'>ListSentimentDetectionJobsResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListTopicsDetectionJobsRequest.html"
+                                  title='struct rusoto_comprehend::ListTopicsDetectionJobsRequest'>ListTopicsDetectionJobsRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListTopicsDetectionJobsResponse.html"
+                                  title='struct rusoto_comprehend::ListTopicsDetectionJobsResponse'>ListTopicsDetectionJobsResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.OutputDataConfig.html"
+                                  title='struct rusoto_comprehend::OutputDataConfig'>OutputDataConfig</a></td>
+                           <td class='docblock-short'>
+                                <p><p>Provides configuration parameters for the output of topic detection jobs.</p> <p/></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.PartOfSpeechTag.html"
+                                  title='struct rusoto_comprehend::PartOfSpeechTag'>PartOfSpeechTag</a></td>
+                           <td class='docblock-short'>
+                                <p>Identifies the part of speech represented by the token and gives the confidence that Amazon Comprehend has that the part of speech was correctly identified. For more information about the parts of speech that Amazon Comprehend can identify, see <a>how-syntax</a>.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.SentimentDetectionJobFilter.html"
+                                  title='struct rusoto_comprehend::SentimentDetectionJobFilter'>SentimentDetectionJobFilter</a></td>
+                           <td class='docblock-short'>
+                                <p>Provides information for filtering a list of dominant language detection jobs. For more information, see the operation.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.SentimentDetectionJobProperties.html"
+                                  title='struct rusoto_comprehend::SentimentDetectionJobProperties'>SentimentDetectionJobProperties</a></td>
+                           <td class='docblock-short'>
+                                <p>Provides information about a sentiment detection job.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.SentimentScore.html"
+                                  title='struct rusoto_comprehend::SentimentScore'>SentimentScore</a></td>
+                           <td class='docblock-short'>
+                                <p>Describes the level of confidence that Amazon Comprehend has in the accuracy of its detection of sentiments.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StartDominantLanguageDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::StartDominantLanguageDetectionJobRequest'>StartDominantLanguageDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StartDominantLanguageDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::StartDominantLanguageDetectionJobResponse'>StartDominantLanguageDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StartEntitiesDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::StartEntitiesDetectionJobRequest'>StartEntitiesDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StartEntitiesDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::StartEntitiesDetectionJobResponse'>StartEntitiesDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StartKeyPhrasesDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::StartKeyPhrasesDetectionJobRequest'>StartKeyPhrasesDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StartKeyPhrasesDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::StartKeyPhrasesDetectionJobResponse'>StartKeyPhrasesDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StartSentimentDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::StartSentimentDetectionJobRequest'>StartSentimentDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StartSentimentDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::StartSentimentDetectionJobResponse'>StartSentimentDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StartTopicsDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::StartTopicsDetectionJobRequest'>StartTopicsDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StartTopicsDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::StartTopicsDetectionJobResponse'>StartTopicsDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StopDominantLanguageDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::StopDominantLanguageDetectionJobRequest'>StopDominantLanguageDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StopDominantLanguageDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::StopDominantLanguageDetectionJobResponse'>StopDominantLanguageDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StopEntitiesDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::StopEntitiesDetectionJobRequest'>StopEntitiesDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StopEntitiesDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::StopEntitiesDetectionJobResponse'>StopEntitiesDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StopKeyPhrasesDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::StopKeyPhrasesDetectionJobRequest'>StopKeyPhrasesDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StopKeyPhrasesDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::StopKeyPhrasesDetectionJobResponse'>StopKeyPhrasesDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StopSentimentDetectionJobRequest.html"
+                                  title='struct rusoto_comprehend::StopSentimentDetectionJobRequest'>StopSentimentDetectionJobRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.StopSentimentDetectionJobResponse.html"
+                                  title='struct rusoto_comprehend::StopSentimentDetectionJobResponse'>StopSentimentDetectionJobResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.SyntaxToken.html"
+                                  title='struct rusoto_comprehend::SyntaxToken'>SyntaxToken</a></td>
+                           <td class='docblock-short'>
+                                <p>Represents a work in the input text that was recognized and assigned a part of speech. There is one syntax token record for each word in the source text.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.TopicsDetectionJobFilter.html"
+                                  title='struct rusoto_comprehend::TopicsDetectionJobFilter'>TopicsDetectionJobFilter</a></td>
+                           <td class='docblock-short'>
+                                <p>Provides information for filtering topic detection jobs. For more information, see .</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.TopicsDetectionJobProperties.html"
+                                  title='struct rusoto_comprehend::TopicsDetectionJobProperties'>TopicsDetectionJobProperties</a></td>
+                           <td class='docblock-short'>
+                                <p>Provides information about a topic detection job.</p>
+                           </td>
+                       </tr></table><h2 id='enums' class='section-header'><a href="#enums">Enums</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.BatchDetectDominantLanguageError.html"
+                                  title='enum rusoto_comprehend::BatchDetectDominantLanguageError'>BatchDetectDominantLanguageError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by BatchDetectDominantLanguage</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.BatchDetectEntitiesError.html"
+                                  title='enum rusoto_comprehend::BatchDetectEntitiesError'>BatchDetectEntitiesError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by BatchDetectEntities</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.BatchDetectKeyPhrasesError.html"
+                                  title='enum rusoto_comprehend::BatchDetectKeyPhrasesError'>BatchDetectKeyPhrasesError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by BatchDetectKeyPhrases</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.BatchDetectSentimentError.html"
+                                  title='enum rusoto_comprehend::BatchDetectSentimentError'>BatchDetectSentimentError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by BatchDetectSentiment</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.BatchDetectSyntaxError.html"
+                                  title='enum rusoto_comprehend::BatchDetectSyntaxError'>BatchDetectSyntaxError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by BatchDetectSyntax</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DescribeDominantLanguageDetectionJobError.html"
+                                  title='enum rusoto_comprehend::DescribeDominantLanguageDetectionJobError'>DescribeDominantLanguageDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DescribeDominantLanguageDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DescribeEntitiesDetectionJobError.html"
+                                  title='enum rusoto_comprehend::DescribeEntitiesDetectionJobError'>DescribeEntitiesDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DescribeEntitiesDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DescribeKeyPhrasesDetectionJobError.html"
+                                  title='enum rusoto_comprehend::DescribeKeyPhrasesDetectionJobError'>DescribeKeyPhrasesDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DescribeKeyPhrasesDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DescribeSentimentDetectionJobError.html"
+                                  title='enum rusoto_comprehend::DescribeSentimentDetectionJobError'>DescribeSentimentDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DescribeSentimentDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DescribeTopicsDetectionJobError.html"
+                                  title='enum rusoto_comprehend::DescribeTopicsDetectionJobError'>DescribeTopicsDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DescribeTopicsDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DetectDominantLanguageError.html"
+                                  title='enum rusoto_comprehend::DetectDominantLanguageError'>DetectDominantLanguageError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DetectDominantLanguage</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DetectEntitiesError.html"
+                                  title='enum rusoto_comprehend::DetectEntitiesError'>DetectEntitiesError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DetectEntities</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DetectKeyPhrasesError.html"
+                                  title='enum rusoto_comprehend::DetectKeyPhrasesError'>DetectKeyPhrasesError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DetectKeyPhrases</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DetectSentimentError.html"
+                                  title='enum rusoto_comprehend::DetectSentimentError'>DetectSentimentError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DetectSentiment</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DetectSyntaxError.html"
+                                  title='enum rusoto_comprehend::DetectSyntaxError'>DetectSyntaxError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DetectSyntax</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.ListDominantLanguageDetectionJobsError.html"
+                                  title='enum rusoto_comprehend::ListDominantLanguageDetectionJobsError'>ListDominantLanguageDetectionJobsError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by ListDominantLanguageDetectionJobs</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.ListEntitiesDetectionJobsError.html"
+                                  title='enum rusoto_comprehend::ListEntitiesDetectionJobsError'>ListEntitiesDetectionJobsError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by ListEntitiesDetectionJobs</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.ListKeyPhrasesDetectionJobsError.html"
+                                  title='enum rusoto_comprehend::ListKeyPhrasesDetectionJobsError'>ListKeyPhrasesDetectionJobsError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by ListKeyPhrasesDetectionJobs</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.ListSentimentDetectionJobsError.html"
+                                  title='enum rusoto_comprehend::ListSentimentDetectionJobsError'>ListSentimentDetectionJobsError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by ListSentimentDetectionJobs</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.ListTopicsDetectionJobsError.html"
+                                  title='enum rusoto_comprehend::ListTopicsDetectionJobsError'>ListTopicsDetectionJobsError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by ListTopicsDetectionJobs</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.StartDominantLanguageDetectionJobError.html"
+                                  title='enum rusoto_comprehend::StartDominantLanguageDetectionJobError'>StartDominantLanguageDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by StartDominantLanguageDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.StartEntitiesDetectionJobError.html"
+                                  title='enum rusoto_comprehend::StartEntitiesDetectionJobError'>StartEntitiesDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by StartEntitiesDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.StartKeyPhrasesDetectionJobError.html"
+                                  title='enum rusoto_comprehend::StartKeyPhrasesDetectionJobError'>StartKeyPhrasesDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by StartKeyPhrasesDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.StartSentimentDetectionJobError.html"
+                                  title='enum rusoto_comprehend::StartSentimentDetectionJobError'>StartSentimentDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by StartSentimentDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.StartTopicsDetectionJobError.html"
+                                  title='enum rusoto_comprehend::StartTopicsDetectionJobError'>StartTopicsDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by StartTopicsDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.StopDominantLanguageDetectionJobError.html"
+                                  title='enum rusoto_comprehend::StopDominantLanguageDetectionJobError'>StopDominantLanguageDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by StopDominantLanguageDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.StopEntitiesDetectionJobError.html"
+                                  title='enum rusoto_comprehend::StopEntitiesDetectionJobError'>StopEntitiesDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by StopEntitiesDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.StopKeyPhrasesDetectionJobError.html"
+                                  title='enum rusoto_comprehend::StopKeyPhrasesDetectionJobError'>StopKeyPhrasesDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by StopKeyPhrasesDetectionJob</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.StopSentimentDetectionJobError.html"
+                                  title='enum rusoto_comprehend::StopSentimentDetectionJobError'>StopSentimentDetectionJobError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by StopSentimentDetectionJob</p>
+
+                           </td>
+                       </tr></table><h2 id='traits' class='section-header'><a href="#traits">Traits</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class="trait" href="trait.Comprehend.html"
+                                  title='trait rusoto_comprehend::Comprehend'>Comprehend</a></td>
+                           <td class='docblock-short'>
+                                <p>Trait representing the capabilities of the Amazon Comprehend API. Amazon Comprehend clients implement this trait.</p>
+
+                           </td>
+                       </tr></table></section><section id="search" class="content hidden"></section><section class="footer"></section><aside id="help" class="hidden"><div><h1 class="hidden">Help</h1><div class="shortcuts"><h2>Keyboard Shortcuts</h2><dl><dt><kbd>?</kbd></dt><dd>Show this help dialog</dd><dt><kbd>S</kbd></dt><dd>Focus the search field</dd><dt><kbd>↑</kbd></dt><dd>Move up in search results</dd><dt><kbd>↓</kbd></dt><dd>Move down in search results</dd><dt><kbd>↹</kbd></dt><dd>Switch tab</dd><dt><kbd>&#9166;</kbd></dt><dd>Go to active search result</dd><dt><kbd>+</kbd></dt><dd>Expand all sections</dd><dt><kbd>-</kbd></dt><dd>Collapse all sections</dd></dl></div><div class="infos"><h2>Search Tricks</h2><p>Prefix searches with a type followed by a colon (e.g. <code>fn:</code>) to restrict the search to a given type.</p><p>Accepted types are: <code>fn</code>, <code>mod</code>, <code>struct</code>, <code>enum</code>, <code>trait</code>, <code>type</code>, <code>macro</code>, and <code>const</code>.</p><p>Search functions by type signature (e.g. <code>vec -> usize</code> or <code>* -> vec</code>)</p><p>Search multiple things at once by splitting your query with comma (e.g. <code>str,u8</code> or <code>String,struct:Vec,test</code>)</p></div></div></aside><script>window.rootPath = "../";window.currentCrate = "rusoto_comprehend";</script><script src="../aliases.js"></script><script src="../main.js"></script><script defer src="../search-index.js"></script></body></html>

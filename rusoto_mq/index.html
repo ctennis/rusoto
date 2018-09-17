@@ -1,0 +1,627 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `rusoto_mq` crate."><meta name="keywords" content="rust, rustlang, rust-lang, rusoto_mq"><title>rusoto_mq - Rust</title><link rel="stylesheet" type="text/css" href="../normalize.css"><link rel="stylesheet" type="text/css" href="../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../dark.css"><link rel="stylesheet" type="text/css" href="../light.css" id="themeStyle"><script src="../storage.js"></script></head><body class="rustdoc mod"><!--[if lte IE 8]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="sidebar"><div class="sidebar-menu">&#9776;</div><a href='../rusoto_mq/index.html'><img src='https://raw.githubusercontent.com/rusoto/rusoto/master/assets/logo-square.png' alt='logo' width='100'></a><p class='location'>Crate rusoto_mq</p><div class="sidebar-elems"><div class="block items"><ul><li><a href="#structs">Structs</a></li><li><a href="#enums">Enums</a></li><li><a href="#traits">Traits</a></li></ul></div><p class='location'></p><script>window.sidebarCurrent = {name: 'rusoto_mq', ty: 'mod', relpath: '../'};</script></div></nav><div class="theme-picker"><button id="theme-picker" aria-label="Pick another theme!"><img src="../brush.svg" width="18" alt="Pick another theme!"></button><div id="theme-choices"></div></div><script src="../theme.js"></script><nav class="sub"><form class="search-form js-only"><div class="search-container"><input class="search-input" name="search" autocomplete="off" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><a id="settings-menu" href="../settings.html"><img src="../wheel.svg" width="18" alt="Change settings"></a></div></form></nav><section id="main" class="content"><h1 class='fqn'><span class='in-band'>Crate <a class="mod" href=''>rusoto_mq</a></span><span class='out-of-band'><span id='render-detail'><a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class='inner'>&#x2212;</span>]</a></span><a class='srclink' href='../src/rusoto_mq/lib.rs.html#14-32' title='goto source code'>[src]</a></span></h1><div class='docblock'><p>Amazon MQ is a managed message broker service for Apache ActiveMQ that makes it easy to set up and operate message brokers in the cloud. A message broker allows software applications and components to communicate using various programming languages, operating systems, and formal messaging protocols.</p>
+<p>If you're using the service, you're probably looking for <a href="struct.MQClient.html">MQClient</a> and <a href="trait.MQ.html">MQ</a>.</p>
+</div><h2 id='structs' class='section-header'><a href="#structs">Structs</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BrokerInstance.html"
+                                  title='struct rusoto_mq::BrokerInstance'>BrokerInstance</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about all brokers.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.BrokerSummary.html"
+                                  title='struct rusoto_mq::BrokerSummary'>BrokerSummary</a></td>
+                           <td class='docblock-short'>
+                                <p>The Amazon Resource Name (ARN) of the broker.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.Configuration.html"
+                                  title='struct rusoto_mq::Configuration'>Configuration</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about all configurations.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ConfigurationId.html"
+                                  title='struct rusoto_mq::ConfigurationId'>ConfigurationId</a></td>
+                           <td class='docblock-short'>
+                                <p>A list of information about the configuration.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ConfigurationRevision.html"
+                                  title='struct rusoto_mq::ConfigurationRevision'>ConfigurationRevision</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about the specified configuration revision.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.Configurations.html"
+                                  title='struct rusoto_mq::Configurations'>Configurations</a></td>
+                           <td class='docblock-short'>
+                                <p>Broker configuration information</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.CreateBrokerInput.html"
+                                  title='struct rusoto_mq::CreateBrokerInput'>CreateBrokerInput</a></td>
+                           <td class='docblock-short'>
+                                <p>Required. The time period during which Amazon MQ applies pending updates or patches to the broker.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.CreateBrokerOutput.html"
+                                  title='struct rusoto_mq::CreateBrokerOutput'>CreateBrokerOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about the created broker.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.CreateBrokerRequest.html"
+                                  title='struct rusoto_mq::CreateBrokerRequest'>CreateBrokerRequest</a></td>
+                           <td class='docblock-short'>
+                                <p>Creates a broker using the specified properties.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.CreateBrokerResponse.html"
+                                  title='struct rusoto_mq::CreateBrokerResponse'>CreateBrokerResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.CreateConfigurationInput.html"
+                                  title='struct rusoto_mq::CreateConfigurationInput'>CreateConfigurationInput</a></td>
+                           <td class='docblock-short'>
+                                <p>Creates a new configuration for the specified configuration name. Amazon MQ uses the default configuration (the engine type and version).</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.CreateConfigurationOutput.html"
+                                  title='struct rusoto_mq::CreateConfigurationOutput'>CreateConfigurationOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about the created configuration.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.CreateConfigurationRequest.html"
+                                  title='struct rusoto_mq::CreateConfigurationRequest'>CreateConfigurationRequest</a></td>
+                           <td class='docblock-short'>
+                                <p>Creates a new configuration for the specified configuration name. Amazon MQ uses the default configuration (the engine type and version).</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.CreateConfigurationResponse.html"
+                                  title='struct rusoto_mq::CreateConfigurationResponse'>CreateConfigurationResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.CreateUserInput.html"
+                                  title='struct rusoto_mq::CreateUserInput'>CreateUserInput</a></td>
+                           <td class='docblock-short'>
+                                <p>Creates a new ActiveMQ user.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.CreateUserRequest.html"
+                                  title='struct rusoto_mq::CreateUserRequest'>CreateUserRequest</a></td>
+                           <td class='docblock-short'>
+                                <p>Creates a new ActiveMQ user.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.CreateUserResponse.html"
+                                  title='struct rusoto_mq::CreateUserResponse'>CreateUserResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DeleteBrokerOutput.html"
+                                  title='struct rusoto_mq::DeleteBrokerOutput'>DeleteBrokerOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about the deleted broker.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DeleteBrokerRequest.html"
+                                  title='struct rusoto_mq::DeleteBrokerRequest'>DeleteBrokerRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DeleteBrokerResponse.html"
+                                  title='struct rusoto_mq::DeleteBrokerResponse'>DeleteBrokerResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DeleteUserRequest.html"
+                                  title='struct rusoto_mq::DeleteUserRequest'>DeleteUserRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DeleteUserResponse.html"
+                                  title='struct rusoto_mq::DeleteUserResponse'>DeleteUserResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeBrokerOutput.html"
+                                  title='struct rusoto_mq::DescribeBrokerOutput'>DescribeBrokerOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>The version of the broker engine. Note: Currently, Amazon MQ supports only 5.15.0.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeBrokerRequest.html"
+                                  title='struct rusoto_mq::DescribeBrokerRequest'>DescribeBrokerRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeBrokerResponse.html"
+                                  title='struct rusoto_mq::DescribeBrokerResponse'>DescribeBrokerResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeConfigurationRequest.html"
+                                  title='struct rusoto_mq::DescribeConfigurationRequest'>DescribeConfigurationRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeConfigurationResponse.html"
+                                  title='struct rusoto_mq::DescribeConfigurationResponse'>DescribeConfigurationResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeConfigurationRevisionOutput.html"
+                                  title='struct rusoto_mq::DescribeConfigurationRevisionOutput'>DescribeConfigurationRevisionOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns the specified configuration revision for the specified configuration.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeConfigurationRevisionRequest.html"
+                                  title='struct rusoto_mq::DescribeConfigurationRevisionRequest'>DescribeConfigurationRevisionRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeConfigurationRevisionResponse.html"
+                                  title='struct rusoto_mq::DescribeConfigurationRevisionResponse'>DescribeConfigurationRevisionResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeUserOutput.html"
+                                  title='struct rusoto_mq::DescribeUserOutput'>DescribeUserOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about an ActiveMQ user.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeUserRequest.html"
+                                  title='struct rusoto_mq::DescribeUserRequest'>DescribeUserRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.DescribeUserResponse.html"
+                                  title='struct rusoto_mq::DescribeUserResponse'>DescribeUserResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListBrokersOutput.html"
+                                  title='struct rusoto_mq::ListBrokersOutput'>ListBrokersOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>A list of information about all brokers.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListBrokersRequest.html"
+                                  title='struct rusoto_mq::ListBrokersRequest'>ListBrokersRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListBrokersResponse.html"
+                                  title='struct rusoto_mq::ListBrokersResponse'>ListBrokersResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListConfigurationRevisionsOutput.html"
+                                  title='struct rusoto_mq::ListConfigurationRevisionsOutput'>ListConfigurationRevisionsOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns a list of all revisions for the specified configuration.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListConfigurationRevisionsRequest.html"
+                                  title='struct rusoto_mq::ListConfigurationRevisionsRequest'>ListConfigurationRevisionsRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListConfigurationRevisionsResponse.html"
+                                  title='struct rusoto_mq::ListConfigurationRevisionsResponse'>ListConfigurationRevisionsResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListConfigurationsOutput.html"
+                                  title='struct rusoto_mq::ListConfigurationsOutput'>ListConfigurationsOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns a list of all configurations.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListConfigurationsRequest.html"
+                                  title='struct rusoto_mq::ListConfigurationsRequest'>ListConfigurationsRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListConfigurationsResponse.html"
+                                  title='struct rusoto_mq::ListConfigurationsResponse'>ListConfigurationsResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListUsersOutput.html"
+                                  title='struct rusoto_mq::ListUsersOutput'>ListUsersOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns a list of all ActiveMQ users.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListUsersRequest.html"
+                                  title='struct rusoto_mq::ListUsersRequest'>ListUsersRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.ListUsersResponse.html"
+                                  title='struct rusoto_mq::ListUsersResponse'>ListUsersResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.Logs.html"
+                                  title='struct rusoto_mq::Logs'>Logs</a></td>
+                           <td class='docblock-short'>
+                                <p>The list of information about logs to be enabled for the specified broker.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.LogsSummary.html"
+                                  title='struct rusoto_mq::LogsSummary'>LogsSummary</a></td>
+                           <td class='docblock-short'>
+                                <p>The list of information about logs currently enabled and pending to be deployed for the specified broker.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.MQClient.html"
+                                  title='struct rusoto_mq::MQClient'>MQClient</a></td>
+                           <td class='docblock-short'>
+                                <p>A client for the AmazonMQ API.</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.MQError.html"
+                                  title='struct rusoto_mq::MQError'>MQError</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about an error.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.PendingLogs.html"
+                                  title='struct rusoto_mq::PendingLogs'>PendingLogs</a></td>
+                           <td class='docblock-short'>
+                                <p>The list of information about logs to be enabled for the specified broker.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.RebootBrokerRequest.html"
+                                  title='struct rusoto_mq::RebootBrokerRequest'>RebootBrokerRequest</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.RebootBrokerResponse.html"
+                                  title='struct rusoto_mq::RebootBrokerResponse'>RebootBrokerResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.SanitizationWarning.html"
+                                  title='struct rusoto_mq::SanitizationWarning'>SanitizationWarning</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about the XML element or attribute that was sanitized in the configuration.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UpdateBrokerInput.html"
+                                  title='struct rusoto_mq::UpdateBrokerInput'>UpdateBrokerInput</a></td>
+                           <td class='docblock-short'>
+                                <p>Updates the broker using the specified properties.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UpdateBrokerOutput.html"
+                                  title='struct rusoto_mq::UpdateBrokerOutput'>UpdateBrokerOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about the updated broker.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UpdateBrokerRequest.html"
+                                  title='struct rusoto_mq::UpdateBrokerRequest'>UpdateBrokerRequest</a></td>
+                           <td class='docblock-short'>
+                                <p>Updates the broker using the specified properties.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UpdateBrokerResponse.html"
+                                  title='struct rusoto_mq::UpdateBrokerResponse'>UpdateBrokerResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UpdateConfigurationInput.html"
+                                  title='struct rusoto_mq::UpdateConfigurationInput'>UpdateConfigurationInput</a></td>
+                           <td class='docblock-short'>
+                                <p>Updates the specified configuration.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UpdateConfigurationOutput.html"
+                                  title='struct rusoto_mq::UpdateConfigurationOutput'>UpdateConfigurationOutput</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about the updated configuration.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UpdateConfigurationRequest.html"
+                                  title='struct rusoto_mq::UpdateConfigurationRequest'>UpdateConfigurationRequest</a></td>
+                           <td class='docblock-short'>
+                                <p>Updates the specified configuration.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UpdateConfigurationResponse.html"
+                                  title='struct rusoto_mq::UpdateConfigurationResponse'>UpdateConfigurationResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UpdateUserInput.html"
+                                  title='struct rusoto_mq::UpdateUserInput'>UpdateUserInput</a></td>
+                           <td class='docblock-short'>
+                                <p>Updates the information for an ActiveMQ user.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UpdateUserRequest.html"
+                                  title='struct rusoto_mq::UpdateUserRequest'>UpdateUserRequest</a></td>
+                           <td class='docblock-short'>
+                                <p>Updates the information for an ActiveMQ user.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UpdateUserResponse.html"
+                                  title='struct rusoto_mq::UpdateUserResponse'>UpdateUserResponse</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.User.html"
+                                  title='struct rusoto_mq::User'>User</a></td>
+                           <td class='docblock-short'>
+                                <p>An ActiveMQ user associated with the broker.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UserPendingChanges.html"
+                                  title='struct rusoto_mq::UserPendingChanges'>UserPendingChanges</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns information about the status of the changes pending for the ActiveMQ user.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.UserSummary.html"
+                                  title='struct rusoto_mq::UserSummary'>UserSummary</a></td>
+                           <td class='docblock-short'>
+                                <p>Returns a list of all ActiveMQ users.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="struct" href="struct.WeeklyStartTime.html"
+                                  title='struct rusoto_mq::WeeklyStartTime'>WeeklyStartTime</a></td>
+                           <td class='docblock-short'>
+                                <p>The scheduled time period relative to UTC during which Amazon MQ begins to apply pending updates or patches to the broker.</p>
+                           </td>
+                       </tr></table><h2 id='enums' class='section-header'><a href="#enums">Enums</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.CreateBrokerError.html"
+                                  title='enum rusoto_mq::CreateBrokerError'>CreateBrokerError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by CreateBroker</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.CreateConfigurationError.html"
+                                  title='enum rusoto_mq::CreateConfigurationError'>CreateConfigurationError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by CreateConfiguration</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.CreateUserError.html"
+                                  title='enum rusoto_mq::CreateUserError'>CreateUserError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by CreateUser</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DeleteBrokerError.html"
+                                  title='enum rusoto_mq::DeleteBrokerError'>DeleteBrokerError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DeleteBroker</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DeleteUserError.html"
+                                  title='enum rusoto_mq::DeleteUserError'>DeleteUserError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DeleteUser</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DescribeBrokerError.html"
+                                  title='enum rusoto_mq::DescribeBrokerError'>DescribeBrokerError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DescribeBroker</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DescribeConfigurationError.html"
+                                  title='enum rusoto_mq::DescribeConfigurationError'>DescribeConfigurationError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DescribeConfiguration</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DescribeConfigurationRevisionError.html"
+                                  title='enum rusoto_mq::DescribeConfigurationRevisionError'>DescribeConfigurationRevisionError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DescribeConfigurationRevision</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.DescribeUserError.html"
+                                  title='enum rusoto_mq::DescribeUserError'>DescribeUserError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by DescribeUser</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.ListBrokersError.html"
+                                  title='enum rusoto_mq::ListBrokersError'>ListBrokersError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by ListBrokers</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.ListConfigurationRevisionsError.html"
+                                  title='enum rusoto_mq::ListConfigurationRevisionsError'>ListConfigurationRevisionsError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by ListConfigurationRevisions</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.ListConfigurationsError.html"
+                                  title='enum rusoto_mq::ListConfigurationsError'>ListConfigurationsError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by ListConfigurations</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.ListUsersError.html"
+                                  title='enum rusoto_mq::ListUsersError'>ListUsersError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by ListUsers</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.RebootBrokerError.html"
+                                  title='enum rusoto_mq::RebootBrokerError'>RebootBrokerError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by RebootBroker</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.UpdateBrokerError.html"
+                                  title='enum rusoto_mq::UpdateBrokerError'>UpdateBrokerError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by UpdateBroker</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.UpdateConfigurationError.html"
+                                  title='enum rusoto_mq::UpdateConfigurationError'>UpdateConfigurationError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by UpdateConfiguration</p>
+
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class="enum" href="enum.UpdateUserError.html"
+                                  title='enum rusoto_mq::UpdateUserError'>UpdateUserError</a></td>
+                           <td class='docblock-short'>
+                                <p>Errors returned by UpdateUser</p>
+
+                           </td>
+                       </tr></table><h2 id='traits' class='section-header'><a href="#traits">Traits</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class="trait" href="trait.MQ.html"
+                                  title='trait rusoto_mq::MQ'>MQ</a></td>
+                           <td class='docblock-short'>
+                                <p>Trait representing the capabilities of the AmazonMQ API. AmazonMQ clients implement this trait.</p>
+
+                           </td>
+                       </tr></table></section><section id="search" class="content hidden"></section><section class="footer"></section><aside id="help" class="hidden"><div><h1 class="hidden">Help</h1><div class="shortcuts"><h2>Keyboard Shortcuts</h2><dl><dt><kbd>?</kbd></dt><dd>Show this help dialog</dd><dt><kbd>S</kbd></dt><dd>Focus the search field</dd><dt><kbd>↑</kbd></dt><dd>Move up in search results</dd><dt><kbd>↓</kbd></dt><dd>Move down in search results</dd><dt><kbd>↹</kbd></dt><dd>Switch tab</dd><dt><kbd>&#9166;</kbd></dt><dd>Go to active search result</dd><dt><kbd>+</kbd></dt><dd>Expand all sections</dd><dt><kbd>-</kbd></dt><dd>Collapse all sections</dd></dl></div><div class="infos"><h2>Search Tricks</h2><p>Prefix searches with a type followed by a colon (e.g. <code>fn:</code>) to restrict the search to a given type.</p><p>Accepted types are: <code>fn</code>, <code>mod</code>, <code>struct</code>, <code>enum</code>, <code>trait</code>, <code>type</code>, <code>macro</code>, and <code>const</code>.</p><p>Search functions by type signature (e.g. <code>vec -> usize</code> or <code>* -> vec</code>)</p><p>Search multiple things at once by splitting your query with comma (e.g. <code>str,u8</code> or <code>String,struct:Vec,test</code>)</p></div></div></aside><script>window.rootPath = "../";window.currentCrate = "rusoto_mq";</script><script src="../aliases.js"></script><script src="../main.js"></script><script defer src="../search-index.js"></script></body></html>
